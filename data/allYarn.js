@@ -2,7 +2,7 @@ const allYarn = [
   {
     name: 'Wool-Ease® Fair Isle Yarn',
     brand: 'Lion Brand',
-    id: Date.now(),
+    id: 50,
     price: '$6.99',
     color: "Beige/Olive [629-205CE]",
     details: [{
@@ -21,7 +21,7 @@ const allYarn = [
   {
     name: 'Wool-Ease® Recycled Yarn',
     brand: 'Lion Brand',
-    id: Date.now(),
+    id: 60,
     price: '$4.19',
     color: "Cream [632-098W]",
     details: [{
@@ -40,7 +40,7 @@ const allYarn = [
   {
     name: 'Heal The Wool',
     brand: 'Wool and The Gang',
-    id: Date.now(),
+    id: 70,
     price: '$22.00',
     color: "Ocean Blue",
     details: [{
