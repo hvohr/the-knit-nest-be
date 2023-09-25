@@ -51,3 +51,5 @@ const allBooks = [
     addedToCart: false,
   },
 ]
+
+module.exports = allBooks;

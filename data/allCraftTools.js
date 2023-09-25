@@ -26,3 +26,5 @@ const allCraftTools = [
     addedToCart: false,
   },
 ]
+
+module.exports = allCraftTools;
