@@ -1,11 +1,13 @@
 const express = require("express")
 const app = express();
+const cors = require('cors');
 const allBooks = require('./data/allBooks')
 const allYarn = require('./data/allYarn')
 const allCraftTools = require('./data/allCraftTools')
 
 app.set('port', process.env.PORT || 3001);
 app.use(express.json());
+app.use(cors());
 
 app.locals.title = "The Knit Nest"
 app.locals.yarn = allYarn
