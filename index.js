@@ -7,7 +7,6 @@ const allCraftTools = require('./data/allCraftTools')
 app.set('port', process.env.PORT || 3001);
 app.use(express.json());
 
-
 app.locals.title = "The Knit Nest"
 app.locals.yarn = allYarn
 app.locals.books = allBooks
