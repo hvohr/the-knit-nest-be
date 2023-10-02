@@ -134,5 +134,7 @@ const allProducts = [
     description: 'This crochet hook pack comes with all the hooks you/ve been wanting! Never be caught without the right hook when inspiration strikes with this expansive set. It also comes with a handy case to keep those hooks organized and portable',
     image: "https://cdn.shopify.com/s/files/1/1346/5473/products/830150F__94703.1456684527.1280.1280.jpg?v=1631032357&width=400",
     addedToCart: false,
-  },
+  }
 ]
+
+module.exports = allProducts;
