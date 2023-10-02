@@ -10,16 +10,14 @@ app.use(express.json());
 app.use(cors());
 
 app.locals.title = "The Knit Nest"
-app.locals.yarn = allYarn
-app.locals.books = allBooks
-app.locals.tools = allCraftTools
+app.locals.allproducts = allProducts
 
-app.get("/api/v1/books", async (request, response) => {
+app.get("/api/v1/:category", async (request, response) => {
   response.status(200).json({books: app.locals.books});
 }) 
 
-app.get("/api/v1/tools", async (request, response) => {
-  response.status(200).json({tools: app.locals.tools});
+app.get("/api/v1/allproducts", async (request, response) => {
+  response.status(200).json({allproducts: app.locals.allproducts});
 }) 
 
 app.get("/api/v1/yarn", async (request, response) => {
