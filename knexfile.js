@@ -4,13 +4,13 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      port: '1234',
+      port : 5432,
       user: 'postgres',
       password: 'theknitnest',
       database: 'the-knit-nest',
     },
     migrations: {
-      directory: + '/db/migrations',
+      directory: + './db/migrations',
     },
     seeds: {
       directory: + './seeds'
