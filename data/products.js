@@ -321,9 +321,9 @@ const products = [
     color: null,
     yarnWeight: null,
     price: '$35.00',
-    details: 'This pack comes with 5 different color scissors, all with a different fun shape and size. Great value and quality - also super adorable!',
+    details: 'This pack comes with 6 different color scissors, all with a different fun shape and size. Great value and quality - also super adorable!',
     description: "The crafter's most elusive friend! Each of our yarn and craft scissors has an elegant and unique design that stands out from the pack. You'll never lose sight of them (even our tiniest pair). These shears are perfect for embroidery, needlework, and sewing, as well as your non-yarn crafting needs. They make the ideal gift or stocking stuffer for the DIY-er in your life, although it may be hard to give them up once you get a hold of them!",
-    image: "https://i.etsystatic.com/21514087/r/il/6a9153/5910491183/il_1588xN.5910491183_1hwo.jpg",
+    image: "https://stamprints.com/cdn/shop/files/vintage-crane-scissors-a_800x.jpeg?v=1724279804",
   },
   {
     id: 93,
