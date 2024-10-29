@@ -285,7 +285,7 @@ const products = [
     price: '$35.22',
     details: 'This yarn ball winder features easy assembly instructions and can be disassembled to make traveling easier! Never cake a skein of yarn by hand again!',
     description: "Winding yarn into a cake has never been more straightforward! Use this hand-operated winder to quickly and easily ball your yarn to keep it from getting tangled and knotted! P.S. The accents of blue make it blend in beautifully in any crafting corner, or show it off on your kitchen table or counter!",
-    image: "https://clover-usa.com/cdn/shop/files/3205_Yarn_Ball_Winder_IMG_pkg-top-1_web.jpg?v=1704840613",
+    image: "https://clover-usa.com/cdn/shop/files/3205_Yarn_Ball_Winder_IMG_pkg-top-1_web_720x@2x.jpg?v=1704840613",
   },
   {
     id: 10,
